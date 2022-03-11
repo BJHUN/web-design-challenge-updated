@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
 
-    <title>Humidity</title>
+    <title>Temperature</title>
 </head>
 
 <body>
@@ -68,11 +68,14 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-7 mt-5">
                         <div class="card">
-                            <h4 class="card-header text-info">Humidity</h4>
+                            <h4 class="card-header text-info">Temperature</h4>
                             <div class="card-body">
-                                <img id="img-wrap" class="img-fluid img-center" src="/assets/images/humidity.png" Title="Humidity"
-                                    width="400">
-                                <p class="card-text font-weight-light">As you can see, the highest level of humidity is 100%. Regardless of the level of altitude there is no discernable corelation between humidity and latitude.</p>
+                                <img id="img-wrap" class="img-fluid img-center" src="./final images/temp.png"
+                                    Title="Temperature" width="900">
+                                <p class="card-text font-weight-light">We can see that if you start at the a negative
+                                    latitude the temperature is close to 50 degrees. Ss you get closer to the equator
+                                    the temperature increases and as you reach higher latitudes the temperatures
+                                    decreases. </p>
                             </div>
                         </div>
                     </div>
@@ -83,23 +86,23 @@
                     <h4 class="card-header text-info">Visualizations</h4>
                     <div class="card-body">
                         <div class="col-md-12">
-                            <a href="temp.html"><img class="img-fluid img-center viz-box" src="/assets/images/temp.png"
-                                title="Latitude VS Max Temperature" width="400"></a>
+                            <a href="temp.html"><img class="img-fluid img-center viz-box" src="./final images/temp.png"
+                                    title="Latitude VS Max Temperature" width="400"></a>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="humidity.html"><img class="img-fluid img-center viz-box"
+                                    src="./final images/humidity.png" title="Latitude VS Humidity" width="400"></a>
+                        </div>
                     </div>
-                    <div class="col-md-12">
-                        <a href="humidity.html"><img class="img-fluid img-center viz-box"
-                                src="/assets/images/humidity.png" title="Latitude VS Humidity" width="400"></a>
-                    </div>
-                </div>
-                <div class="row pb-3">
-                    <div class="col-md-12">
-                        <a href="cloudiness.html"><img class="img-fluid img-center viz-box"
-                                src="/assets/images/cloud.png" title="Latitude VS Cloudiness" width="400"></a>
-                    </div>
-                    <div class="col-md-12">
-                        <a href="wind.html"><img class="img-fluid img-center viz-box" src="/assets/images/wind.png"
-                                title="Latitude VS Wind Speed" width="400"></a>
-                    </div>
+                    <div class="row pb-3">
+                        <div class="col-md-12">
+                            <a href="cloudiness.html"><img class="img-fluid img-center viz-box"
+                                    src="./final images/cloud.png" title="Latitude VS Cloudiness" width="400"></a>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="wind.html"><img class="img-fluid img-center viz-box" src="./final images/wind.png"
+                                    title="Latitude VS Wind Speed" width="400"></a>
+                        </div>
 
                     </div>
                     </section>
